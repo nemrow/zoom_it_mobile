@@ -1,9 +1,34 @@
-.container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+.content{
+	margin:  40px auto;
+	text-align: center;
 }
-th {
-  text-align: left;
+.facebook_login_btn{
+	margin: 40px auto;
 }
+.header-logo{
+	height: 40px;
+}
+.ui-header > .ui-btn{
+	margin: 13px;
+}
+.content-center{
+	text-align: center;
+}
+img.logo-big{
+	margin: 40px auto 30px auto;
+	width: 250px;
+}
+h3.home-page-tagline{
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
+	width: 400px;
+	margin: 0 auto 30px auto;
+}
+a.fb-login img{
+	width: 300px;
+}
+
+/* 
+logo / tag = font-family: 'Fredoka One', cursive;
+everything else = font-family: 'Droid Sans', sans-serif;
+*/

@@ -14,6 +14,10 @@ require 'pathname'
 require 'pg'
 require 'active_record'
 require 'logger'
+require 'open-uri'
+require 'net/http'
+require 'json'
+require 'cgi'
 
 require 'sinatra'
 require "sinatra/reloader" if development?
@@ -24,6 +28,10 @@ require 'erb'
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 
 APP_NAME = APP_ROOT.basename.to_s
+
+FACEBOOK_APP_ID = '442332995863716'
+FACEBOOK_SECRET = '6dadfd9738ef574647de130a946eaba7'
+
 
 # Set up the controllers and helpers
 Dir[APP_ROOT.join('app', 'controllers', '*.rb')].each { |file| require file }

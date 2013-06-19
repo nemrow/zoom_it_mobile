@@ -1,6 +1,5 @@
 source :rubygems
 ruby "1.9.3"
-
 # PostgreSQL driver
 gem 'pg'
 
@@ -13,6 +12,7 @@ gem 'thin'
 
 gem 'activesupport'
 gem 'activerecord'
+gem 'json'
 
 gem 'rake'
 
